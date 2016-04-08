@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Booking" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_margin="10dp"
+        android:text="Vehicle registration number"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/vehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:padding="10dp"
+        android:ems="10" >
+	
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estimated Parking time"
+         android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+         android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="Contact number"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/book"
+        android:background="@drawable/orangesolid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_margin="10dp"
+        android:text="Book" />
+
+</LinearLayout>
